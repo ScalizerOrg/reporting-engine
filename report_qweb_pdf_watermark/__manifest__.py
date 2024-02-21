@@ -11,7 +11,6 @@
     "website": "https://github.com/OCA/reporting-engine",
     "depends": ["web"],
     "data": [
-        "demo/report.xml",
         "views/ir_actions_report_xml.xml",
         "views/res_company.xml",
     ],
