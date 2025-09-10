@@ -18,8 +18,8 @@
                     invisible="not binary_file"
                 />
                 <field name="binary_file" filename="file_name" />
-                <field name="file_name" invisible="1" />
-                <field name="sql_export_id" invisible="1" />
+                <field name="file_name" invisible="1" /> <!-- Comment for Unit Tests -->
+                <field name="sql_export_id" invisible="1" /> <!-- Comment for Unit Tests -->
                 <footer>
                         <button
                     name="export_sql"

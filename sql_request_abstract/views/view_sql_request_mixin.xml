@@ -79,7 +79,7 @@ License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl.html).
                                     colspan="2"
                                     widget="many2many_tags"
                                 />
-                                <field name="has_group_changed" invisible="1" />
+                                <field name="has_group_changed" invisible="1" /> <!-- Comment for Unit Tests -->
                             </group>
                             <group string="Allowed Users" name="group_allowed_users">
                                 <field

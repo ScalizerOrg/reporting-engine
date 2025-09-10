@@ -7,7 +7,7 @@
         <field name="inherit_id" ref="base.act_report_xml_view" />
         <field name="arch" type="xml">
             <xpath expr="//sheet" position="before">
-                <field name="is_py3o_report_not_available" invisible="1" />
+                <field name="is_py3o_report_not_available" invisible="1" /> <!-- Comment for Unit Tests -->
                 <div class="alert alert-danger" role="alert" style="margin-bottom:0px;">
                     <field
                         name="msg_py3o_report_not_available"

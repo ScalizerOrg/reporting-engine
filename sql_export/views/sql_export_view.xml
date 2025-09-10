@@ -9,7 +9,7 @@
         <field name="mode">primary</field>
         <field name="arch" type="xml">
             <field name="query" position="after">
-                <field name="use_properties" invisible="1" />
+                <field name="use_properties" invisible="1" /> <!-- Comment for Unit Tests -->
             </field>
             <button name="button_preview_sql_expression" position="attributes">
                 <attribute name="invisible">use_properties</attribute>

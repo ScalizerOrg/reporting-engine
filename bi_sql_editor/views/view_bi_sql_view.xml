@@ -160,7 +160,7 @@ License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl.html).
                                 name="field_context"
                                 readonly="state == 'ui_valid'"
                             />
-                            <field name="state" column_invisible="1" />
+                            <field name="state" column_invisible="1" /> <!-- Comment for Unit Tests -->
                         </list>
                     </field>
                 </page>

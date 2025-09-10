@@ -13,7 +13,7 @@
                     class="oe_inline"
                 />
                 </h3>
-                <field name="no_record" invisible="1" />
+                <field name="no_record" invisible="1" /> <!-- Comment for Unit Tests -->
                 <field name="model_ids" />
                 <div class="o_row">
                     <span>Choose an example
